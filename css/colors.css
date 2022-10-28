@@ -1,0 +1,60 @@
+:root {
+    --primary-color: hsla(272, 76%, 53%, 0.65);
+    --secondary-color: hsla(260, 100%, 44%, 0.65);
+    --dark-color: #4b00e0a6;
+    --light-color: #f4f4f4;
+    --success-color: #5cb85c;
+    --error-color: #d9534f;
+  }
+
+/* Backgrounds & colored buttons */
+.bg-primary,
+.btn-primary {
+background-image: linear-gradient(rgba(215, 179, 245, 0.76),
+ rgba(118, 71, 194, 0.7)), url(../images/dator.jpg);
+background-size: cover;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
+/* Text colors */
+.text-primary {
+    color: var(--primary-color);
+  }
+  
+  .text-secondary {
+    color: var(--secondary-color);
+  }
+  
+  .text-dark {
+    color: var(--dark-color);
+  }
+  
+  .text-light {
+    color: var(--light-color);
+  }
